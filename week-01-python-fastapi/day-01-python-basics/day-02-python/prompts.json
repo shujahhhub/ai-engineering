@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "topic": "Docker",
+        "prompt": "Explain Docker to a beginner."
+    },
+    {
+        "id": 2,
+        "topic": "RAG",
+        "prompt": "Explain RAG with a real-world example."
+    },
+    {
+        "id": 3,
+        "topic": "AI Agents",
+        "prompt": "Explain AI agents simply."
+    },
+    {
+        "id": 4,
+        "topic": "Embeddings",
+        "prompt": "Explain embeddings without heavy mathematics."
+    },
+    {
+        "id": 5,
+        "topic": "FastAPI",
+        "prompt": "Explain why FastAPI is useful for AI applications."
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "provider": "OpenAI",
+    "model": "gpt-model",
+    "temperature": 0.7,
+    "streaming": true
+}
