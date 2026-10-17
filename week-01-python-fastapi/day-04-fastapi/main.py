@@ -47,6 +47,19 @@ def get_prompts():
     return prompts
 
 
+@app.get("/prompts/search")
+def search_prompts(topic: str):
+
+    results = []
+
+    for prompt in prompts:
+
+        if prompt["topic"].lower() == topic.lower():
+            results.append(prompt)
+
+    return results
+
+
 @app.get("/prompts/{prompt_id}")
 def get_prompt(prompt_id: int):
 
