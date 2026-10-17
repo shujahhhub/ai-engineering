@@ -1,6 +1,6 @@
 # AI Engineering Roadmap
 
-Python learning exercises for the first three days of the AI engineering
+Python learning exercises for the first four days of the AI engineering
 roadmap.
 
 ## Repository structure
@@ -10,7 +10,8 @@ roadmap.
 └── week-01-python-fastapi/
     ├── day-01-python-basics/
     ├── day-02-python/
-    └── day-03-python/
+    ├── day-03-python/
+    └── day-04-fastapi/
 ```
 
 ### Day 1
@@ -45,6 +46,22 @@ For Day 1 or Day 2 scripts, use their path under
 `week-01-python-fastapi\day-01-python-basics`,
 `week-01-python-fastapi\day-02-python`, and
 `week-01-python-fastapi\day-03-python`.
+
+### Day 4
+
+FastAPI application basics, routes, query parameters, and interactive API
+documentation.
+
+Location: `week-01-python-fastapi/day-04-fastapi/`
+
+Run the API from the repository root:
+
+```powershell
+cd .\week-01-python-fastapi\day-04-fastapi
+uvicorn main:app --reload
+```
+
+Then open `http://127.0.0.1:8000/docs`.
 
 ## Notes
 
