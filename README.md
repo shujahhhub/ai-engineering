@@ -1,6 +1,6 @@
 # AI Engineering Roadmap
 
-Python learning exercises for the first four days of the AI engineering
+Python learning exercises for the first five days of the AI engineering
 roadmap.
 
 ## Repository structure
@@ -11,7 +11,8 @@ roadmap.
     ├── day-01-python-basics/
     ├── day-02-python/
     ├── day-03-python/
-    └── day-04-fastapi/
+    ├── day-04-fastapi/
+    └── day-05-fastapi/
 ```
 
 ### Day 1
@@ -60,6 +61,28 @@ Run the API from the repository root:
 cd .\week-01-python-fastapi\day-04-fastapi
 uvicorn main:app --reload
 ```
+
+Then open `http://127.0.0.1:8000/docs`.
+
+### Day 5
+
+FastAPI prompt management with Pydantic validation, in-memory data, create and
+read endpoints, response models, and 404 error handling.
+
+Location: `week-01-python-fastapi/day-05-fastapi/`
+
+Run the API from the repository root:
+
+```powershell
+cd .\week-01-python-fastapi\day-05-fastapi
+uvicorn main:app --reload
+```
+
+Available endpoints:
+
+- `POST /prompts` creates a prompt.
+- `GET /prompts` returns all prompts.
+- `GET /prompts/{prompt_id}` returns one prompt by ID.
 
 Then open `http://127.0.0.1:8000/docs`.
 
